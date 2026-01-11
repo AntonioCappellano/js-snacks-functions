@@ -10,7 +10,6 @@ function firstLetter(arrayStrings, letter) {
   for (let i = 0; i < arrayStrings.length; i++) {
     // console.log(arrayStrings[i].toLowerCase());
     // console.log(arrayStrings[i].toLowerCase()[0]);
-
     // console.log(letter.toLowerCase());
     if (arrayStrings[i].toLowerCase()[0] === letter.toLowerCase()) {
       result.push(arrayStrings[i]);
